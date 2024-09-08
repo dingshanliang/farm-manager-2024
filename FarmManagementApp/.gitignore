@@ -1,59 +1,89 @@
-
-# Ignore Python bytecode files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Ignore Python virtual environment
+# Virtual environment
 venv/
 env/
+ENV/
 
-# Ignore Node.js dependencies
-node_modules/
-
-# Ignore React Native packager cache
-.expo/
-.expo-shared/
-
-# Ignore environment-specific files
-.env
-
-# Ignore macOS system files
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
 
-# Ignore logs
-logs/
+# FastAPI
+.env
+
+# Alembic
+alembic.ini
+
+# Logs
 *.log
 
-# Ignore database files
-*.sqlite3
+# Database
 *.db
+*.sqlite3
 
-# Ignore build artifacts
-build/
-dist/
-*.egg-info/
+# Other
+*.bak
+*.tmp
+*.temp
 
-# Ignore IDE-specific files
-.idea/
-.vscode/
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Ignore test coverage reports
-.coverage
+# pytest
+.pytest_cache/
+
+# Coverage reports
 htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
 
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# mypy
+.mypy_cache/
 
-# Ignore FastAPI static files
-static/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Ignore React Native Metro bundler cache
-.metro/
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# Ignore React Native cache files
-.cache/
+# Rope project settings
+.ropeproject
 
-# Ignore React Native bundle files
-*.bundle
+# mkdocs documentation
+/site
+
+# Pyre type checker
+.pyre/
